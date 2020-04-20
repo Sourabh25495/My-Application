@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import PortfolioApplication from './PortfolioApplication'
 
-const Index = () => {
-  return <div>Hello React! Lets start making our portfolio</div>;
+
+const App = () => {
+  return <PortfolioApplication />
 };
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+ReactDOM.render(<App />, document.getElementById("index"));
