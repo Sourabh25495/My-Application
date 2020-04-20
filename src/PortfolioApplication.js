@@ -166,5 +166,9 @@ const  PortfolioApplication = (props) => {
   );
 }
 
+<<<<<<< HEAD
 
 export default PortfolioApplication;
+=======
+export default PortfolioApplication;
+>>>>>>> 30b86e65006a4ed0349391e36d129738ddc9d3a2
