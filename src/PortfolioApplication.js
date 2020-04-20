@@ -203,7 +203,7 @@ const PortfolioApplication = (props) => {
         <main className={classes.content}>
           <div className={classes.toolbar} />
           <Typography paragraph>
-            {/* <Switch>
+            <Switch>
               <Route path="/profile">
                 <Profile />
               </Route>
@@ -216,7 +216,7 @@ const PortfolioApplication = (props) => {
               <Route path="/projects">
                 Personal projects
               </Route>
-            </Switch> */}
+            </Switch>
           </Typography>
           <Typography paragraph></Typography>
         </main>
