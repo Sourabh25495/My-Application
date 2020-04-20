@@ -112,7 +112,7 @@ const PortfolioApplication = (props) => {
   };
 
   const handleDrawerClose = () => {
-    setOpen(false);
+    setOpen(true);
   };
 
   return (

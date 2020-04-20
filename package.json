@@ -13,8 +13,12 @@
     "react-dom": "^16.13.1",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
+<<<<<<< HEAD
     "rsuite": "^4.3.4",
     "styled-components": "^5.1.0"
+=======
+    "rsuite": "^4.3.4"
+>>>>>>> a08f187c160b87d138652534256852319a2683cb
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
@@ -42,6 +46,10 @@
     "build": "webpack --mode production --history-api-fallbac",
     "server": "node-env-run server --exec nodemon",
     "dev": "run-p server start"
+<<<<<<< HEAD
+=======
+
+>>>>>>> a08f187c160b87d138652534256852319a2683cb
   },
   "proxy": "http://localhost:8080",
   "keywords": [],

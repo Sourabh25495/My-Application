@@ -8,6 +8,10 @@ import {
   Route,
   Link,
   Redirect,
+<<<<<<< HEAD
+=======
+  withRouter,
+>>>>>>> a08f187c160b87d138652534256852319a2683cb
 } from "react-router-dom";
 import Routes from "./Routes";
 import Profile from "./pages/Profile";
@@ -23,4 +27,9 @@ const App = () => {
   );
 };
 
+<<<<<<< HEAD
+=======
+//export default withRouter(App)
+
+>>>>>>> a08f187c160b87d138652534256852319a2683cb
 ReactDOM.render(<App />, document.getElementById("index"));
