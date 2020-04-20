@@ -9,12 +9,12 @@ import {
 } from "react-router-dom";
 import Profile from "./pages/Profile";
 
-// const ROOT_PATH = 'sk'
+const ROOT_PATH = '/sk'
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/" component={Profile} />
-      {/* <Route path="/education" component={<div>Hi</div>} /> */}
+      <Route path={ROOT_PATH} component={Profile} />
+      <Route path="/sk/education" component={<div>Hi</div>} />
       {/* <Route path="/work-exp">Work Exp</Route>
       <Route path="/projects">Personal projects</Route> */}
     </Switch>
