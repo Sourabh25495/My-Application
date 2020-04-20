@@ -8,7 +8,6 @@ import {
   Route,
   Link,
   Redirect,
-  withRouter,
 } from "react-router-dom";
 import Routes from "./Routes";
 import Profile from "./pages/Profile";
@@ -23,7 +22,5 @@ const App = () => {
     </div>
   );
 };
-
-//export default withRouter(App)
 
 ReactDOM.render(<App />, document.getElementById("index"));
