@@ -8,6 +8,7 @@ import {
   Route,
   Link,
   Redirect,
+  withRouter,
 } from "react-router-dom";
 import Routes from "./Routes";
 import Profile from "./pages/Profile";
