@@ -204,16 +204,16 @@ const PortfolioApplication = (props) => {
           <div className={classes.toolbar} />
           <Typography paragraph>
             <Switch>
-              <Route path="/profile">
+              <Route path="/">
                 <Profile />
               </Route>
-              <Route path="/education">
+              <Route path="/sk/education">
                 users
               </Route>
-              <Route path="/work-exp">
+              <Route path="/sk/work-exp">
                 Work Exp
               </Route>
-              <Route path="/projects">
+              <Route path="/sk/projects">
                 Personal projects
               </Route>
             </Switch>
